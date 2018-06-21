@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+    color:#828282;
+    overflow: hidden;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  header {
+    display:flex;
+    height: 90px;
+    padding: 30px;
+    justify-content: left;
+  }
+  
+  .logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+    margin-left: 20px;
+  }
+  
+  .info {
+    margin-left: 100px;
+  }
+  
+  .title {
+    font-size: 30px;
+    color: white;
+  }
+  
+  .intro {
+    font-size: 20px;
+  }
+  
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  
+  /* main */
+  main {
+    display: flex;
+  }
+
+
+  
+  .sidebar {
+    background-color: black;
+    width: 20%;
+    flex-grow: 1;
+    height: 900px;
+  }
+
+  .page {
+    background-color: black;
+    width: 70%;
+    flex-grow: 1;
+  }
+
+  .events-list {
+    margin-top: 70px;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+  }
+  
+  .events-list li {
+    margin: 10px auto;
+  }
